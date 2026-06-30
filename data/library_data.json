@@ -1,0 +1,60 @@
+{
+    "inventaris": [
+        {
+            "id": 1,
+            "title": "buku 1"
+        },
+        {
+            "id": 2,
+            "title": "buku 2"
+        },
+        {
+            "id": 3,
+            "title": "buku 3"
+        },
+        {
+            "id": 4,
+            "title": "buku 4"
+        }
+    ],
+    "antrean": [],
+    "riwayat": [
+        "Menambahkan buku via GUI: buku 1 (ID: 1)",
+        "Menambahkan buku via GUI: buku 2 (ID: 2)",
+        "akbar mendaftarkan antrean peminjaman ID 2",
+        "Menambahkan buku via GUI: buku 3 (ID: 3)",
+        "Menambahkan buku via GUI: buku 1 (ID: 1)",
+        "Memproses peminjaman dari akbar untuk Buku ID 2.",
+        "akbar mendaftarkan antrean peminjaman ID 31",
+        "Memproses peminjaman dari akbar untuk Buku ID 31.",
+        "akbar mendaftarkan antrean peminjaman ID 1",
+        "danu mendaftarkan antrean peminjaman ID 3",
+        "Memproses peminjaman dari akbar untuk Buku ID 1.",
+        "Memproses peminjaman dari danu untuk Buku ID 3.",
+        "Enqueue Antrean #1001: akbar pinjam Buku ID 1",
+        "Enqueue Antrean #1002: danu pinjam Buku ID 2",
+        "FIFO memproses Tx #1001 untuk akbar.",
+        "FIFO memproses Tx #1002 untuk danu.",
+        "Enqueue Antrean #1001: danu pinjam Buku ID 3",
+        "Enqueue Antrean #1002: syahrul pinjam Buku ID 1",
+        "Enqueue Antrean #1003: restu pinjam Buku ID 2",
+        "Pembatalan transaksi khusus Tx ID: 1001 (danu)",
+        "FIFO memproses transaksi #1002",
+        "FIFO memproses transaksi #1003",
+        "FIFO memproses transaksi #1002",
+        "FIFO memproses transaksi #1003",
+        "Mengurutkan visualisasi data tabel menggunakan Quick Sort Engine.",
+        "Mengurutkan visualisasi data tabel menggunakan Quick Sort Engine.",
+        "Mengurutkan visualisasi data tabel menggunakan Quick Sort Engine.",
+        "Hapus buku ID: 1",
+        "Hapus buku ID: 1",
+        "Tambah buku: buku 2 (ID: 5)",
+        "Hapus buku ID: 5",
+        "Hapus buku ID: 2",
+        "Hapus buku ID: 3",
+        "Tambah buku: buku 1 (ID: 1)",
+        "Tambah buku: buku 2 (ID: 2)",
+        "Tambah buku: buku 3 (ID: 3)",
+        "Tambah buku: buku 4 (ID: 4)"
+    ]
+}
