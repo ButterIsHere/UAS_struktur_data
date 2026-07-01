@@ -2,59 +2,86 @@
     "inventaris": [
         {
             "id": 1,
-            "title": "buku 1"
+            "title": "sci-fi 1",
+            "genres": [
+                "Sci-Fi"
+            ]
         },
         {
             "id": 2,
-            "title": "buku 2"
+            "title": "Annihilation By Jeff Vandermeer",
+            "genres": [
+                "Sci-Fi",
+                "Novel"
+            ]
         },
         {
             "id": 3,
-            "title": "buku 3"
+            "title": "Novel Sejarah",
+            "genres": [
+                "Novel",
+                "History"
+            ]
         },
         {
             "id": 4,
-            "title": "buku 4"
+            "title": "Buku Segala Genre",
+            "genres": [
+                "Sci-Fi",
+                "Comic",
+                "Novel",
+                "Textbook",
+                "History"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Authority By Jeff Vandermeer",
+            "genres": [
+                "Sci-Fi",
+                "Novel"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "We Used to Live Here by Marcus Kliewer",
+            "genres": [
+                "Novel",
+                "Textbook"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Absolute Batman",
+            "genres": [
+                "Comic"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Absolut Cat Woman",
+            "genres": [
+                "Comic"
+            ]
         }
     ],
-    "antrean": [],
+    "antrean": [
+        {
+            "tx_id": 1001,
+            "peminjam": "Akbar",
+            "book_id": 3
+        }
+    ],
     "riwayat": [
-        "Menambahkan buku via GUI: buku 1 (ID: 1)",
-        "Menambahkan buku via GUI: buku 2 (ID: 2)",
-        "akbar mendaftarkan antrean peminjaman ID 2",
-        "Menambahkan buku via GUI: buku 3 (ID: 3)",
-        "Menambahkan buku via GUI: buku 1 (ID: 1)",
-        "Memproses peminjaman dari akbar untuk Buku ID 2.",
-        "akbar mendaftarkan antrean peminjaman ID 31",
-        "Memproses peminjaman dari akbar untuk Buku ID 31.",
-        "akbar mendaftarkan antrean peminjaman ID 1",
-        "danu mendaftarkan antrean peminjaman ID 3",
-        "Memproses peminjaman dari akbar untuk Buku ID 1.",
-        "Memproses peminjaman dari danu untuk Buku ID 3.",
-        "Enqueue Antrean #1001: akbar pinjam Buku ID 1",
-        "Enqueue Antrean #1002: danu pinjam Buku ID 2",
-        "FIFO memproses Tx #1001 untuk akbar.",
-        "FIFO memproses Tx #1002 untuk danu.",
-        "Enqueue Antrean #1001: danu pinjam Buku ID 3",
-        "Enqueue Antrean #1002: syahrul pinjam Buku ID 1",
-        "Enqueue Antrean #1003: restu pinjam Buku ID 2",
-        "Pembatalan transaksi khusus Tx ID: 1001 (danu)",
-        "FIFO memproses transaksi #1002",
-        "FIFO memproses transaksi #1003",
-        "FIFO memproses transaksi #1002",
-        "FIFO memproses transaksi #1003",
-        "Mengurutkan visualisasi data tabel menggunakan Quick Sort Engine.",
-        "Mengurutkan visualisasi data tabel menggunakan Quick Sort Engine.",
-        "Mengurutkan visualisasi data tabel menggunakan Quick Sort Engine.",
-        "Hapus buku ID: 1",
-        "Hapus buku ID: 1",
-        "Tambah buku: buku 2 (ID: 5)",
-        "Hapus buku ID: 5",
-        "Hapus buku ID: 2",
-        "Hapus buku ID: 3",
-        "Tambah buku: buku 1 (ID: 1)",
-        "Tambah buku: buku 2 (ID: 2)",
-        "Tambah buku: buku 3 (ID: 3)",
-        "Tambah buku: buku 4 (ID: 4)"
+        "Tambah buku: sci-fi 1 (Genres: ['Sci-Fi']) [ID: 1]",
+        "Tambah buku: Annihilation By Jeff Vandermeer (Genres: ['Sci-Fi', 'Novel']) [ID: 2]",
+        "Tambah buku: Novel Sejarah (Genres: ['Novel', 'History']) [ID: 3]",
+        "Enqueue Antrean #1001: Akbar -> Buku ID 3",
+        "Tambah buku: Buku Segala Genre [ID: 4]",
+        "Tambah buku: Authority By Jeff Vandermeer [ID: 5]",
+        "Tambah buku: We Used to Live Here by Marcus Kliewer [ID: 6]",
+        "Tambah buku: Absolute Batman [ID: 7]",
+        "Tambah buku: Absolut Cat Woman [ID: 8]",
+        "Mengurutkan display visual tabel via Quick Sort."
     ]
 }
